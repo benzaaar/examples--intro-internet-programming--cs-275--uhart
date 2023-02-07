@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Working with Images</title>
+  <style>
+/* Apply the following rule only images sourced from the Flickr link */
+img[src="https://live.staticflickr.com/7066/6891416813_b9244742b1_s.jpg"] {
+  height: 16px;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Working with Images</h1>
+  </header>
+  <hr>
+  <main>
+    <p>This is a cool sugar glider →<img title="Sugar gliders rule 🤘🏽" src="https://live.staticflickr.com/7066/6891416813_b9244742b1_s.jpg" alt="[Image of a sugar glider]">Cool!</p>
+
+    <!-- Note how the following images, loading from Flickr’s website, are rendered next to each other -->
+    <p>These are cool sugar gliders →<img title="Sugar gliders rock 🤘🏽" src="https://live.staticflickr.com/7066/6891416813_b9244742b1_s.jpg" alt="[Image of a sugar glider]"><img title="Sugar gliders rock 🤘🏽" src="https://live.staticflickr.com/7066/6891416813_b9244742b1_s.jpg" alt="[Image of a sugar glider]"><img title="Sugar gliders rock 🤘🏽" src="https://live.staticflickr.com/7066/6891416813_b9244742b1_s.jpg" alt="[Image of a sugar glider]"><img title="Sugar gliders rock 🤘🏽" src="https://live.staticflickr.com/7066/6891416813_b9244742b1_s.jpg" alt="[Image of a sugar glider]"><img title="Sugar gliders rock 🤘🏽" src="https://live.staticflickr.com/7066/6891416813_b9244742b1_s.jpg" alt="[Image of a sugar glider]"><img title="Sugar gliders rock 🤘🏽" src="https://live.staticflickr.com/7066/6891416813_b9244742b1_s.jpg" alt="[Image of a sugar glider]"><img title="Sugar gliders rock 🤘🏽" src="https://live.staticflickr.com/7066/6891416813_b9244742b1_s.jpg" alt="[Image of a sugar glider]"><img title="Sugar gliders rock 🤘🏽" src="https://live.staticflickr.com/7066/6891416813_b9244742b1_s.jpg" alt="[Image of a sugar glider]"><img title="Sugar gliders rock 🤘🏽" src="https://live.staticflickr.com/7066/6891416813_b9244742b1_s.jpg" alt="[Image of a sugar glider]"></p>
+
+    <!-- Note how the following images is loaded from the loca filesystem via a relative path -->
+    <p><img src="img/6891416813_b9244742b1_m.jpg" alt="[Sugar gliders rock 🤘🏽!]"></p>
+  </main>
+  <footer>Image comes from <a href="https://www.flickr.com/photos/garrettt/" target="_blank" rel="noopener">GarrettTT</a></footer>
+</body>
+</html>
