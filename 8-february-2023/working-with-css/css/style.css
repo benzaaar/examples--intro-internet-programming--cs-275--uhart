@@ -1,0 +1,41 @@
+:root {
+  --margin-value: 18px;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  line-height: 1.3;
+  margin-left: var(--margin-value);
+  margin-right: var(--margin-value);
+}
+
+p,
+ul,
+ol {
+  margin-top: var(--margin-value);
+  margin-bottom: var(--margin-value);
+}
+
+header {
+  margin-top: var(--margin-value);
+  margin-bottom: var(--margin-value);
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Noto Serif', serif;
+}
+
+pre,
+code {
+  font-family: monospace;
+}
