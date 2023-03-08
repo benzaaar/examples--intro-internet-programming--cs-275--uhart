@@ -1,0 +1,14 @@
+{
+  "student": [
+    {
+      "name": {
+        "first": "Linus",
+        "last": "Torvalds"
+      },
+      "assignment_1": {
+        "grade": 90,
+        "comment": ""
+      }
+    }
+  ]
+}
