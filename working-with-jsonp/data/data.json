@@ -9,6 +9,16 @@
         "grade": 90,
         "comment": "Nice job, but not perfect!"
       }
+    },
+    {
+      "name": {
+        "first": "Donald",
+        "last": "Knuth"
+      },
+      "assignment_1": {
+        "grade": 100,
+        "comment": "Perfect! You’re gonna do big things in CS!"
+      }
     }
   ]
 }
