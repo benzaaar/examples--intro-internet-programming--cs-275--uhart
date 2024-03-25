@@ -1,0 +1,44 @@
+:root {
+  --width-of-a-div: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.master-div {
+  width: 100px;
+  overflow: hidden;
+  border: 4px solid transparent;
+  transition: cubic-bezier(.6,.6,1,-0.67) 1s;
+}
+
+.master-div:hover {
+  border-color: red;
+}
+
+section {
+  width: calc(3 * var(--width-of-a-div));
+  height: var(--width-of-a-div);
+  margin-left: 0px;
+}
+
+.div-child {
+  display: inline-block;
+  width: var(--width-of-a-div);
+  height: var(--width-of-a-div);
+}
+
+section > div:nth-child(1) {
+  background-color: yellow;
+}
+
+section > div:nth-child(2) {
+  background-color: pink;
+}
+
+section > div:nth-child(3) {
+  background-color: green;
+}
