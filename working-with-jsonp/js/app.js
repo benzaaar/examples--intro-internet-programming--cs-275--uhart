@@ -18,5 +18,4 @@ function grades(data) {
 
 script = document.createElement(`script`);
 script.setAttribute(`src`, `data/data.json`);
-
 body.appendChild(script);

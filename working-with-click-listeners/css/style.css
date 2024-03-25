@@ -1,0 +1,12 @@
+body {
+  height: 100vh;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+}
+
+.third-div {
+  background-color: pink;
+}
